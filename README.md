@@ -37,22 +37,24 @@ Cloning is the process of making a local copy of the lab from the personal remot
 
 <img width="100%" height="auto" src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/git-workflow-2.png" alt="Git Workflow 2">
 
+Since we've automated forking & cloning for you on Nitrous (this is what happens when you click the Open button) you won't really ever need the following steps but it's useful to review how to manually clone for future reference. 
+
 To clone, make sure you've first clicked on the SSH link, then click the
 copy button next to the Clone URL to copy it to your clipboard.
 
 <img width="100%" height="auto" src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-2.jpg" alt="Ironboard Labs Step 2">
 
-Next, in Terminal navigate to the parent directory where you would like to place this lab. Then type:  `git clone <paste the clone URL here>`  
+Next, in your console you would navigate to the parent directory where you would like to place this lab. Then type:  `git clone <paste the clone URL here>`  
 
 Note: You should replace the `<paste the clone URL here>` including the `<` and `>` symbols in the snippet above with your actual clone URL by pressing command+v on mac or ctrl+v on windows. Example: `git clone git@github.com:jongrover/first-lab-000.git`
 
 <img width="100%" height="auto" src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-2b.png" alt="Ironboard Labs Step 2b">
 
-Don't forget to `cd` into the lab directory that was made when you cloned the lab. Once in the directory, open the directory with your favorite text editor. Try `subl .` to open in Sublime or `atom .` to open in Atom.
+You would then navigate into the newly created directory using the file browser to open up the files in the editor. Also don't forget to `cd` into the lab directory that was made when you cloned the lab. 
 
-![Work mode](https://dl.dropboxusercontent.com/s/je5pazo2edy5cwl/2015-09-30%20at%207.34%20PM.png)
+SCREENSHOT
 
-This setup, a terminal in the lab's directory and the lab directory open in an editor like Sublime or Atom, that's the state you want to be in when working on a lab on Learn. It means you're ready.
+This setup, your console in the lab's directory and the lab directory open in your file browser, that's the state you want to be in when working on a lab on Learn. It means you're ready.
 
 ## Step 3: Solving the Lab
 
@@ -68,7 +70,7 @@ Read the lab's README on Learn and get a sense of what the lab is about and what
 
 #### Run the tests with `learn`
 
-2. Before doing any work, run the test suite from your local clone with the `learn` CLI command. From your terminal, in a lab's directory, run `learn`, you'll see something similar to:
+2. Before doing any work, run the test suite from your local clone with the `learn` CLI command. From your console, in a lab's directory, run `learn`, you'll see something similar to:
 
 ![Failing Test](https://dl.dropboxusercontent.com/s/0ik01a1urmuw7o6/2015-09-30%20at%207.46%20PM.png)
 
