@@ -1,1 +1,3 @@
-# learn-git-workflow-nitrous
+# Using git with Learn
+
+will adapt for Nitrous when OSX version complete
